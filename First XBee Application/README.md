@@ -13,14 +13,17 @@ Matériel :
 ### Première Etape - Configuration des modules XBee
 
 Cette partie va consister à configurer les deux modules XBee afin qu'ils puissent par la suite communiquer. 
-Cette configuration s'effectue sous X-CTU. Si X-CTU n'arrive pas à se connecter aux modules XBee alors il faut 
+Cette configuration s'effectue sous X-CTU.
+
+1. Vérification 
+
+  Pour réaliser cette étape il faut que les jumpers des XBee Shield soient en position USB comme ci dessous :
+ 
+2. Test de la communication.
+
+  Dans l'onglet `PC Settings` cliquer sur `TEST/QUERY`. Si X-CTU n'arrive pas à se connecter aux modules XBee alors il faut 
 faire un pont entre la borne `RESET` et la borne `GND` de l'arduino UNO.
-
-
-1. Test de la communication.
-
-  Dans l'onglet `PC Settings` cliquer sur `TEST/QUERY`.
-2. Réglage des modules XBee.
+3. Réglage des modules XBee.
 
   Dans l'onglet `Modem Configuration` 
 
