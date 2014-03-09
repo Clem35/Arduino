@@ -18,7 +18,7 @@ Cette configuration s'effectue sous X-CTU.
 1. Vérification 
 
   Pour réaliser cette étape il faut que les jumpers des XBee Shield soient en position USB comme ci dessous :
- 
+
  ![XBee Shield](../Images/Xbee_shield.png)
  
 2. Test de la communication.
@@ -34,3 +34,6 @@ faire un pont entre la borne `RESET` et la borne `GND` de l'arduino UNO.
 ### Deuxième Etape - Ecriture du code et envoi du code sur l'Arduino
 
 ### Dernière Etape - Mise en Marche de l'application
+
+
+[image]: ../Images/Xbee_shield.png "Image title" width=40px height=400px
