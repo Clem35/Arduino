@@ -35,5 +35,3 @@ faire un pont entre la borne `RESET` et la borne `GND` de l'arduino UNO.
 
 ### Dernière Etape - Mise en Marche de l'application
 
-
-[image]: ../Images/Xbee_shield.png "Image title" width=40px height=400px
