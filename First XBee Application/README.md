@@ -25,20 +25,24 @@ Cette configuration s'effectue sous X-CTU.
 
   Afin de pouvoir configurer le module XBee il faut premièrement connaître sur quel port (USB) l'arduino est branché. Pour cela il faut se rendre dans le `Gestionnaire de Périphériques` sous Windows. Puis dans la partie `Ports (COM et LTP)` nous retrouvons le module arduino avec le port correspondant. Sur l'image ci-contre nous pouvons voir que l'arduino est connecté au port `COM14`.
   
- ![Gestionnaire de Périphériques](../Images/gestionnaire_peripherique.png)
+ ![Gestionnaire de Périphériques](../Images/gestionnaire_peripherique.PNG)
   
 3. Première connection avec X-CTU.
   
    Dans l'onglet `PC Settings` cliquer sur `User Com Ports` puis dans la partie `Add User Com Port` il faut entrer le port COM sur lequel l'arduino est connecté, dans notre cas le port `COM14`. Pour valider nous devons cliquer sur le bouton `Add`.
 
+ ![Ajout port COM](../Images/Add_port_com.PNG)
+ 
 2. Test de la communication.
 
   Dans l'onglet `PC Settings` sélectionner le port COM sur lequel on souhaite faire le test dans la liste `Select Com Port`puis cliquer sur `TEST/QUERY`. Si X-CTU n'arrive pas à se connecter aux modules XBee alors il faut soit 
 faire un pont entre la borne `RESET` et la borne `GND` de l'arduino UNO soit renvoyer une application de base comme `Blink` par exemple dans l'arduino.
 
+ ![Test de la communication](../Images/test_xctu_ok.PNG)
+
 3. Réglage des modules XBee.
 
-  Dans l'onglet `Modem Configuration` 
+  Dans l'onglet `Modem Configuration`, il faut premièrement cliquer sur le bouton `Read` afin de connaitre la configuration actuelle du module XBee. Ensuite nous pouvons effectuer
 
 
   
