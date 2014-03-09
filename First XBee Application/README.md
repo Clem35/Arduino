@@ -19,6 +19,8 @@ Cette configuration s'effectue sous X-CTU.
 
   Pour réaliser cette étape il faut que les jumpers des XBee Shield soient en position USB comme ci dessous :
  
+ ![XBee Shield](../Images/Xbee_shield.png)
+ 
 2. Test de la communication.
 
   Dans l'onglet `PC Settings` cliquer sur `TEST/QUERY`. Si X-CTU n'arrive pas à se connecter aux modules XBee alors il faut 
