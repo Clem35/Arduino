@@ -42,7 +42,10 @@ faire un pont entre la borne `RESET` et la borne `GND` de l'arduino UNO soit ren
 
 3. Réglage des modules XBee.
 
-  Dans l'onglet `Modem Configuration`, il faut premièrement cliquer sur le bouton `Read` afin de connaitre la configuration actuelle du module XBee. Ensuite nous pouvons effectuer
+  Dans l'onglet `Modem Configuration`, il faut premièrement cliquer sur le bouton `Read` afin de connaitre la configuration actuelle du module XBee. Ensuite nous pouvons effectuer une configuration du module. Dans notre cas nous aurons un module Xbee en `ZIGBEE COORDINATOR AT` et le second en `ZIGBEE ROUTER AT`. Pour modifier c'est paramètre, il suffit de choisir dans la liste `Function Set` la fonction désirée. Ensuite pour que les deux modules Zigbee puissent communiquer ensemble il faut leurs assigner le même `PAN ID`. Pour cela dans la branche `Networking` il suffit de cliquer sur `ID - PAN ID` et de choisir un ID, ici on a choisit l'ID numéro `10`. Afin de valider lac onfiguration il faut cliquer sur le bouton `Write`. Une fois les deux modules configurer on peut passer à la partie code Arduino afin de réaliser les différentes opérations que l'on souhaite.
+  
+  ![Mode configuration](../Images/Screen Shot 03-09-14 at 10.31 PM.PNG)
+  
 
 
   
